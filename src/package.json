@@ -1,0 +1,22 @@
+{
+  "name": "oop_hw1",
+  "version": "1.0.0",
+  "description": "Домашнее задание к лекции «Классы, наследование» #1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ahtimir",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "babel-jest": "^26.3.0",
+    "eslint": "^7.7.0",
+    "jest": "^26.4.1"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5"
+  }
+}
