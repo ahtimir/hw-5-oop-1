@@ -107,7 +107,14 @@ test('Level Up Error', () => {
   expect(() => {
     const palyer = new Character('newb9', 'Daemon', 10, 40, 1, -1);
     palyer.levelUp();
-  }).toThrow();
+  }).toThrow('Ошибка! Здоровье ниже 0.');
+});
+
+test('Damage Error', () => {
+  expect(() => {
+    const palyer = new Character('newb9', 'Daemon', 10, 40, 1, -1);
+    palyer.damage();
+  }).toThrow('Ошибка! Здоровье ниже 0.');
 });
 
 test('Long Name Error', () => {
